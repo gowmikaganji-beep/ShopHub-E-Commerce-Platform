@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Payment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="payment-box">
+  <h2>Checkout</h2>
+
+  <input placeholder="Full Name">
+  <input placeholder="Address">
+  <input placeholder="Card Number">
+  <input placeholder="Expiry Date">
+  <input placeholder="CVV">
+
+  <button onclick="pay()">Pay Now</button>
+</div>
+
+<script>
+function pay() {
+  alert("Payment Successful 🎉 Thank you for shopping!");
+  localStorage.clear();
+}
+</script>
+
+</body>
+</html>
